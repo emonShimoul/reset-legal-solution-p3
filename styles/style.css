@@ -1,0 +1,132 @@
+.primary-color {
+    background-color: #B68C5A;
+}
+
+.paragraph {
+    color: #707070;
+}
+
+/* banner css */
+.banner {
+    background-image: url('../images/banner.png'), url('../images/Rectangle5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 105px 0;
+}
+
+.banner-heading {
+    font-size: 72px;
+}
+
+.banner p {
+    color: #E7E7E7;
+}
+
+.banner-form {
+    width: 50%;
+}
+
+/* our-client css */
+.our-client-main {
+    background-image: url('../images/banner.png'), url('../images/Rectangle7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 100px 0;
+}
+
+/* faq css */
+.faq-accordion {
+    width: 50%;
+}
+
+.faq-image {
+    width: 50%;
+}
+
+.faq-accordion-item {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+}
+
+.faq-accordion-item:not(.collapsed) {
+    background-color: #F3F3F3;
+    box-shadow: none;
+}
+
+.faq-accordion-item.collapsed {
+    background-color: #F3F3F3;
+    box-shadow: none;
+}
+
+/* footer css */
+footer {
+    background: #111111;
+    padding: 100px 0;
+}
+
+.footer-input {
+    width: 245px;
+}
+
+.footer-input button:hover {
+    background-color: #9b692e;
+}
+
+.footer p,
+li>a,
+address {
+    color: #CFCFCF;
+}
+
+.justice,
+.useful-links,
+.contact-now,
+.subscribe {
+    width: 25%;
+}
+
+.hide {
+    display: none;
+}
+
+/* RESPONSIVE FOR MOBILE DEVICES */
+@media screen and (max-width:576px) {
+
+    /* banner responsive */
+    .banner-heading {
+        font-size: 40px;
+    }
+
+    .banner-form {
+        width: 80%;
+    }
+
+    /* legal-practice-area responsive */
+    .legal {
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    /* faq responsive */
+    .faq-accordion {
+        width: 100%;
+    }
+
+    .faq-image {
+        width: 100%;
+    }
+
+    /* for footer */
+    footer {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .justice,
+    .useful-links,
+    .contact-now,
+    .subscribe {
+        width: 100%;
+    }
+}
